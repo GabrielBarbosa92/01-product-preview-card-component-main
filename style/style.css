@@ -19,10 +19,6 @@ html {
     font-size: 62.7%;
 }
 
-.image__mobile {
-    display: none;
-}
-
 .general__container {
     width: 100%;
     height: 100vh;
@@ -153,10 +149,6 @@ html {
 }
 
 @media screen and (max-width: 680px) {
-    .image {
-        display: none;
-    }
-
     .border__container {
         flex-wrap: wrap;
         width: 100%;
@@ -167,11 +159,6 @@ html {
         min-width: 100%;
         display: flex;
         height: 20%;
-    }
-
-    .image__mobile{
-        display: block;
-        width: 100%;
     }
 
     .content__container {
@@ -208,6 +195,6 @@ html {
 
 @media screen and (max-device-width: 1000px) and (orientation: landscape) {
     .general__container {
-        height: 150vh;
+        min-height: 150vh;
     }
 }

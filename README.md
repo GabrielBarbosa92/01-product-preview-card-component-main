@@ -7,3 +7,5 @@
 I fixed a paragraph that was not lined up!
 
 I applied a reset stylesheet that I learned with the feedbacks from front end mentor!
+
+I changed the block of images tags by a picture tag!

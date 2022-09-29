@@ -18,8 +18,10 @@
     <div class="border__container">
 
       <div class="image__container">
-        <img src="./assets/image-product-desktop.jpg" alt="Perfume" class="image">
-        <img src="./assets/image-product-mobile.jpg" alt="Perfume" class="image__mobile">
+        <picture>
+          <source media="(min-width: 680px)" srcset="./assets/image-product-desktop.jpg">
+          <img src="./assets/image-product-mobile.jpg" alt="Perfume">
+        </picture>
       </div>
 
       <div class="content__container">
